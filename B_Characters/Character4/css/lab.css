@@ -1,0 +1,155 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #98C4DD; /* Light blue background */
+}
+
+/* Styling for the top bar */
+.top-bar {
+    background-color: #0d7ab9; /* Orange background */
+    color: #FF7E29; /* White text */
+    text-align: center; /* Centered text */
+    padding: 10px 0; /* Padding on top and bottom */
+    position: relative; /* Positioned relative to its normal position */
+}
+
+/* Styling for the title text */
+.title {
+    font-size: 24px; /* Font size */
+}
+
+/* Styling for the menu button */
+.menu-button {
+    position: absolute; /* Positioned absolutely within the top bar */
+    left: 10px; /* Positioned 10px from the left */
+    top: 10px; /* Positioned 10px from the top */
+    background-color: black; /* Black background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 8px 12px; /* Padding inside the button */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    font-size: 14px; /* Font size */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for the dropdown menu */
+.menu {
+    display: none; /* Hidden by default */
+    background-color: #f9f9f9; /* Light background */
+    position: absolute; /* Positioned absolutely */
+    top: 50px; /* Positioned below the top bar */
+    left: 10px; /* Positioned 10px from the left */
+    border: 1px solid #ccc; /* Border around the menu */
+    z-index: 1; /* Positioned above other elements */
+}
+
+/* Remove default list styling */
+.menu ul {
+    list-style: none; /* No bullets */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+}
+
+/* Styling for each menu item */
+.menu li {
+    padding: 8px 16px; /* Padding inside each item */
+}
+
+/* Styling for the links in the menu */
+.menu li a {
+    text-decoration: none; /* No underline */
+    color: black; /* Black text */
+    display: block; /* Block display for the entire clickable area */
+}
+
+/* Hover effect for the menu links */
+.menu li a:hover {
+    background-color: #ddd; /* Light grey background on hover */
+}
+
+/* Styling for the main content */
+.content {
+    padding: 20px; /* Padding around the content */
+    text-align: left; /* Left-aligned text */
+    /* text-align: ; Centered text */
+}
+
+/* Styling for the paragraphs in the content */
+.content p {
+    margin: 10px 0; /* Margin around the paragraphs */
+    font-size: 18px; /* Font size */
+}
+
+/* Styling for the Chococat image */
+.chococat-image {
+    display: block; /* Block display to take up its own line */
+    margin-top: 20px; /* Margin on top */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+    max-width: 50%; /* Make sure the image is responsive and half the original size */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 15px; /* Rounded corners */
+}
+
+/* Bio section styling */
+.bio {
+    flex: 1; /* Take up one part of the flexbox */
+    padding-left: 20px; /* Padding on the left */
+}
+
+/* Image section styling */
+.image-section {
+    display: flex; /* Display images as a flexbox */
+    justify-content: space-around; /* Space around the images */
+    padding: 20px; /* Padding around the section */
+}
+
+/* Styling for the individual image containers */
+.image-caption {
+    position: relative;
+    overflow: hidden;
+    display: inline-block; /* Aligns images side by side */
+    width: 45%; /* Adjust the width of the image container */
+}
+
+/* Styling for the images */
+.image-hover {
+    width: 100%; /* Make the image fill its container */
+    transition: transform 0.3s ease-in-out; /* Optional: adds animation to the image */
+    border-radius: 15px; /* Rounded corners for the image */
+}
+
+/* Rocking/Rotating Effect for Cat on a Star Image */
+.image-caption:hover .image-hover {
+    animation: rocking 3s ease-in-out infinite;
+}
+
+@keyframes rocking {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(5deg); } /* Adjust the degree of rotation as desired */
+}
+
+/* Styling for the Caption */
+.caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transform: translateY(100%); /* Hide the caption by default */
+    border-radius: 10px; /* Rounded corners for the gray square */
+}
+
+/* Show Caption on Hover */
+.image-caption:hover .caption {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
