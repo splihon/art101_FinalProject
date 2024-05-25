@@ -94,13 +94,29 @@ body {
 .bio {
     flex: 1; /* Take up one part of the flexbox */
     padding-left: 20px; /* Padding on the left */
+    text-align: center; /* Center text */
+    margin: 0 auto; /* Center horizontally */
 }
 
+/* Facts section styling */
+.facts {
+    text-align: center; /* Center text */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 800px; /* Set a max-width to prevent stretching */
+}
+
+/* Facts section paragraphs */
+.facts p {
+    text-align: left; /* Align paragraph text to the left */
+    margin-left: 20px; /* Add left margin for each paragraph */
+}
 /* Image section styling */
 .image-section {
     display: flex; /* Display images as a flexbox */
     justify-content: space-around; /* Space around the images */
     padding: 20px; /* Padding around the section */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 800px; /* Max width to prevent stretching */
 }
 
 /* Styling for the individual image containers */
@@ -124,9 +140,9 @@ body {
 }
 
 @keyframes floating {
-    0% { transform: translateY(-5px); }
-    50% { transform: translateY(5px); }
-    100% { transform: translateY(-5px); }
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(-10px); }
 }
 
 /* Rocking/Rotating Effect for Cat on a Star Image */
