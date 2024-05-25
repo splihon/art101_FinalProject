@@ -1,39 +1,3 @@
-/* General styling for the body */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #98C4DD; /* Light blue background */
-}
-
-/* Styling for the top bar */
-.top-bar {
-    background-color: #0d7ab9; /* Orange background */
-    color: #ffffff; /* White text */
-    text-align: center; /* Centered text */
-    padding: 10px 0; /* Padding on top and bottom */
-    position: relative; /* Positioned relative to its normal position */
-}
-
-/* Styling for the title text */
-.title {
-    font-size: 24px; /* Font size */
-}
-
-/* Styling for the menu button */
-.menu-button {
-    position: absolute; /* Positioned absolutely within the top bar */
-    left: 10px; /* Positioned 10px from the left */
-    top: 10px; /* Positioned 10px from the top */
-    background-color: black; /* Black background */
-    border: none; /* No border */
-    color: white; /* White text */
-    padding: 8px 12px; /* Padding inside the button */
-    cursor: pointer; /* Cursor changes to pointer on hover */
-    font-size: 14px; /* Font size */
-    border-radius: 8px; /* Rounded corners */
-}
-
 /* Styling for the dropdown menu */
 .menu {
     display: none; /* Hidden by default */

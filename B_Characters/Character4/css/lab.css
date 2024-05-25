@@ -88,7 +88,7 @@ body {
     margin-top: 20px; /* Margin on top */
     margin-left: auto; /* Center the image horizontally */
     margin-right: auto; /* Center the image horizontally */
-    max-width: 50%; /* Make sure the image is responsive and half the original size */
+    max-width: 40%; /* Make sure the image is responsive and half the original size */
     height: auto; /* Maintain the aspect ratio */
     border-radius: 15px; /* Rounded corners */
 }
@@ -116,13 +116,13 @@ body {
 
 /* Styling for the images */
 .image-hover {
-    width: 100%; /* Make the image fill its container */
-    transition: transform 0.3s ease-in-out; /* Optional: adds animation to the image */
+    width: 40%; /* Make the image smaller */
+    transition: transform 1s; /* Smooth transition for the floating effect */
     border-radius: 15px; /* Rounded corners for the image */
 }
 
 /* Rocking/Rotating Effect for Cat on a Star Image */
-.image-caption:hover .image-hover {
+.image-caption#cat-on-star:hover .image-hover {
     animation: rocking 3s ease-in-out infinite;
 }
 
@@ -152,4 +152,15 @@ body {
     visibility: visible;
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Floating Effect for Cat on a Cloud Image */
+.image-caption#cat-on-cloud:hover .image-hover {
+    animation: float 3s ease-in-out infinite; /* Apply floating animation */
+}
+
+@keyframes float {
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(-10px); }
 }
