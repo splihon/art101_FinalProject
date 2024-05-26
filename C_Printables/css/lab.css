@@ -49,6 +49,7 @@ h2{
 #first{
     width: 500px;
     margin-left:left;
+    padding: 15px solid #f9bfbf;
 }
 #second{
     width: 500px;
