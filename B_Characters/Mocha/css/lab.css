@@ -74,6 +74,7 @@ h2{
 
 .minor-section{
     border:solid 5px rgb(248, 203, 203);
+    border-radius: 10px;
     background-color: #ffffff;
 }
 
