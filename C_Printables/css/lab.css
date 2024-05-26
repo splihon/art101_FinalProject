@@ -27,19 +27,40 @@ h2{
 /* Styling for the images so they change size on hover */
 
 #first:hover{
-    border: 1px solid #f9bfbf; 
+    border: 5px solid #f9bfbf;
+    border-radius: 5px; 
 }
 
 #second:hover{
-    border: 1px solid #f9bfbf; 
+    border: 5px solid #f9bfbf;
+    border-radius: 5px; 
 }   
 
 #third:hover{
-    border: 1px solid #f9bfbf;  
+    border: 5px solid #f9bfbf;  
+    border-radius: 5px;
 }
 
 #fourth:hover{
-    border: 1px solid #f9bfbf;  
+    border: 5px solid #f9bfbf;  
+    border-radius: 5px;
+}
+
+#first{
+    width: 500px;
+    margin-left:left;
+}
+#second{
+    width: 500px;
+    float:right;
+}
+#third{
+    width: 500px;
+    margin-left:left; 
+}
+#fourth{
+    width: 500px;
+    float:right;
 }
     
     
