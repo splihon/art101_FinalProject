@@ -24,7 +24,7 @@
 /* Styling for the links in the menu */
 .menu li a {
     text-decoration: none; /* No underline */
-    color: black; /* Black text */
+    color: rgb(23, 46, 225); /* Black text */
     display: block; /* Block display for the entire clickable area */
 }
 
@@ -32,3 +32,4 @@
 .menu li a:hover {
     background-color: #ddd; /* Light grey background on hover */
 }
+

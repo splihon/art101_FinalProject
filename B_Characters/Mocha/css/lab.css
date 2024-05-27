@@ -101,6 +101,7 @@ pre{
     font-size: 20px;
     float:right;
     margin-top: -50px;
+    background-image: url("threeDFlower.png");
 }
 
 #mocha{
