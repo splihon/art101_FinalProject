@@ -8,8 +8,8 @@ body {
 
 /* Styling for the top bar */
 .top-bar {
-    background-color: #0d7ab9; /* Orange background */
-    color: #FF7E29; /* White text */
+    background-color: #0d7ab9; /* Blue background */
+    color: #FF7E29; /* Orange text */
     text-align: center; /* Centered text */
     padding: 10px 0; /* Padding on top and bottom */
     position: relative; /* Positioned relative to its normal position */
@@ -73,7 +73,6 @@ body {
 .content {
     padding: 20px; /* Padding around the content */
     text-align: left; /* Left-aligned text */
-    /* text-align: ; Centered text */
 }
 
 /* Styling for the paragraphs in the content */
@@ -84,7 +83,7 @@ body {
 
 /* Styling for the Chococat image */
 .chococat-image {
-    width: 50%; /* Make the image fill half its container */
+    width: 20%; /* Make the image smaller */
     margin: 0 auto; /* Center the image horizontally */
     display: block; /* Ensure the image is displayed as a block */
     border-radius: 15px; /* Rounded corners for the image */
@@ -110,6 +109,7 @@ body {
     text-align: left; /* Align paragraph text to the left */
     margin-left: 20px; /* Add left margin for each paragraph */
 }
+
 /* Image section styling */
 .image-section {
     display: flex; /* Display images as a flexbox */
