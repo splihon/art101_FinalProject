@@ -36,6 +36,7 @@
     z-index: 1; /* Positioned above other elements */
 }
 
+
 /* Remove default list styling */
 .menu ul {
     list-style: none; /* No bullets */
