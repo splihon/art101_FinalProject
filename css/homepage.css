@@ -45,7 +45,7 @@
 /* BORROWED CODE */
 /* Hide the images by default */
 .mySlides {
-    display: inline-block;
+    display: none;
 }
 
 /* Next & previous buttons */
