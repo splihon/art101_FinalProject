@@ -104,7 +104,12 @@ pre{
     background-image: url("threeDFlower.png");
 }
 
-
+#bigmelody{
+    margin: 0 auto; 
+    width: 469px;
+    margin-top: 50px;
+    margin-left: 68px;
+}
 
 
 
