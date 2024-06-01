@@ -3,9 +3,9 @@ document.getElementById('generateButton').addEventListener('click', generateRand
 
 
 const imageTextPairs = [
-    {src: 'img/chocoCat.png', text: 'This is the first text'},
-    {src: 'img/kuromi.png', text: 'This is the second text'},
-    {src: 'img/myMelody.jpg', text: 'This is the third text'},
+    {src: '../img/chocoCat.png', text: 'This is the first text'},
+    {src: '../img/kuromi.png', text: 'This is the second text'},
+    {src: '../img/transparentPurin.png', text: 'This is the third text'},
     //add more img and correct text later
 ];
 
