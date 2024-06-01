@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #98C4DD; /* Light blue background */
+    background-color: #f7d5e1; /* Light blue background */
 }
 
 /* Styling for the top bar */
 .top-bar {
-    background-color: #0d7ab9; /* Orange background */
+    background-color: #e39ab4; /* Orange background */
     color: #ffffff; /* White text */
     text-align: center; /* Centered text */
     padding: 10px 0; /* Padding on top and bottom */
