@@ -10,20 +10,19 @@ body {
 }
 
 .gif-bar {
-    width: 100%;
+    width: 150%;
     height: 15px; /* Adjust the height as needed */
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 100;
-
-   
+  
 }
 
 .gif-bar img {
-    height: 30px;
+    height: 500px;
+    align-items: center;
     
 }
 
