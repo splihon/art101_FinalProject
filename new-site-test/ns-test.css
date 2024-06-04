@@ -17,13 +17,12 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 0;
-    overflow: hidden;
+   
 }
 
 .gif-bar img {
     height: 30px;
-    transform: translateY(-50%);
+    
 }
 
 .character-box {
