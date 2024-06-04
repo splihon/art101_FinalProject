@@ -11,19 +11,21 @@ body {
 
 .gif-bar {
     width: 150%;
-    height: 15px; /* Adjust the height as needed */
+    height: 40px; /* Adjust the height as needed */
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: absoloute;
+    top: 0;
+    
   
 }
 
 .gif-bar img {
     height: 500px;
     align-items: center;
-    
+    margin-top: 500px;
 }
 
 .character-box {
