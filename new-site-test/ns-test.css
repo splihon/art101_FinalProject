@@ -39,6 +39,7 @@ body {
 }
 
 .character-box img {
+    
     max-width: 100%;
     max-height: 100%;
 }
@@ -59,3 +60,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.image {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+   background-color:#0000008c; 
+   overflow:hidden;
+   color:white;
+}   
