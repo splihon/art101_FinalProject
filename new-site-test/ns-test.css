@@ -18,8 +18,6 @@ body {
     align-items: center;
     position: absoloute;
     top: 0;
-    
-  
 }
 
 .gif-bar img {
@@ -29,8 +27,7 @@ body {
 }
 
 .character-box {
-    width: 80%;
-    height: 60%;
+    width: 500px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -38,6 +35,7 @@ body {
     align-items: center;
     flex-direction: column;
     position: relative;
+    padding-top: 30px;
 }
 
 .character-box img {
