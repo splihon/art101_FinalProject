@@ -5,16 +5,20 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0;
-}
+    background-color: #eda2b7;
+  }
+  
+  
 
-/* .character-box {
+   .character-box {
     width: 100%;
     max-width: 600px;
     margin: 20px;
-} */
+  }
+  
+  
 
-.gif-bar {
+  .gif-bar {
     width: 100%;
     height: 40px; /* Adjust the height as needed */
     background-color: #fff;
@@ -25,19 +29,27 @@ body {
     position: fixed;
     top: 0;
     z-index: 999;
-}
-
-#clawMachine {
+  }
+  
+  
+  
+  
+  #clawMachine {
     align-items: center;
-    width: 100%;
-    height: 50%;
-    object-fit: none;
+    width: 1450px;
+    height: 250px;
+    object-fit: cover;
     object-position: 56% 73%;
+    /* position: relative;
+    bottom: 150px; */
     align-items: center;
-    
-}
-
-.minor-section {
+   
+  }
+  
+  
+  
+  
+  .minor-section {
     padding: 15px;
     margin-bottom: 5px;
     border-radius: 30px;
@@ -47,15 +59,25 @@ body {
     background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
   }
   
-
-
-.character-box img {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   .character-box img {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.generate-button {
+  }
+  
+  
+  
+  
+  /* .generate-button {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #ff69b4;
@@ -63,9 +85,12 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-} 
-
- .overlay {
+  } */
+  
+  
+  
+  
+  /* .overlay {
     position: absolute;
     bottom: 400px;
     left: 1200px;
@@ -76,5 +101,11 @@ body {
     font-size: 18px;
     text-align: center;
     border-radius: 5px;
-}
-
+  }
+  */
+  
+  
+  
+  
+  
+  
