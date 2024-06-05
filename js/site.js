@@ -3,6 +3,13 @@
 document.getElementById('generateButton').addEventListener('click', generateRandomContent);
 
 
+// const imageTextPairs = [
+//     {src: 'img/chocoCat.png', text: 'This is the first text'},
+//     {src: 'img/kuromi.png', text: 'This is the second text'},
+//     {src: '../img/transparentPurin.png', text: 'This is the third text'},
+//     //add more img and correct text later
+// ];
+
 const imageTextPairs = [
     {src: 'img-stickers/chococat.webp', text: 'This is the first text'},
     {src: 'img-stickers/Baku_2D.webp', text: 'This is the second text'},
