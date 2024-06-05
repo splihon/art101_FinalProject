@@ -74,7 +74,7 @@ body {
    overflow:hidden;
    color:white;
 }   
-.parent {
+/* .parent {
     position: relative;
     top: 0;
     left: 0;
@@ -93,4 +93,4 @@ body {
     top: 30px;
     left: 30px;
     border: 1px green solid;
-}
+} */
