@@ -87,7 +87,7 @@ body {
 
 #generateButton:hover {
     background-color: #ffb0d8;
-
+    box-shadow: #fff 0px 7px;
 }
 
 #randomImage {
@@ -97,5 +97,6 @@ body {
 
 .title{
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
 }
