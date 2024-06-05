@@ -60,16 +60,33 @@ body {
     border-radius: 5px;
 }
 
-
-
+#buttonContainer {
+    height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
 
 .generate-button {
-    margin-top: 10px;
-    padding: 10px 20px;
+     /* margin-top: 10px; */
+    /* padding: 10px 20px;  */
     background-color: #ff69b4;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 } 
+
+#randomImage {
+    width: 350px;
+   padding-left: 370px;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+}

@@ -3,14 +3,14 @@ document.getElementById('generateButton').addEventListener('click', generateRand
 
 
 const imageTextPairs = [
-    {src: 'img-stickers/chococat.webp', text: 'This is the first text'},
-    {src: 'img-stickers/Baku_2D.webp', text: 'This is the second text'},
-    {src: 'img-stickers/transparentPurin.png', text: 'This is the third text'},
-    {src: 'img-stickers/transparent-kuromi.gif', text: 'This is the fourth text'},
-    {src: 'img-stickers/Mocha.webp', text: 'This is the fifth text'},
-    {src: 'img-stickers/my-melody.png', text: 'This is the sixth text'},
-    {src: 'img-stickers/pino.png', text: 'This is the seventh text'},
-    {src: 'img-stickers/usahana.webp', text: 'This is the eighth text'},
+    {src: '../img/img-character/chococat.gif', text: 'This is the first text'},
+    // {src: 'img-stickers/Baku_2D.webp', text: 'This is the second text'},
+    {src: '../img/img-character/pompompurin.gif', text: 'This is the third text'},
+    {src: '../img/img-character/kuromigif.gif', text: 'This is the fourth text'},
+    {src: '../img/img-character/mochaSparklingEyes.gif', text: 'This is the fifth text'},
+    {src: '../img/img-character/my-melody.gif', text: 'This is the sixth text'},
+    // {src: 'img-stickers/pino.png', text: 'This is the seventh text'},
+    {src: '../img/img-character/usahana resized.png', text: 'This is the eighth text'},
     //add more img and correct text later
 ];
 
