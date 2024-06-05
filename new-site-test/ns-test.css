@@ -28,6 +28,16 @@ body {
     text-align: center;
 }
 
+.minor-section {
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    border: 10px dashed #e4ebf1;
+    background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
+  }  
+
 .minor-section-bar {
     padding: 20px;
     border: solid 1px #888;
