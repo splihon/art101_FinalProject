@@ -33,8 +33,6 @@ body {
     height: 250px;
     object-fit: cover;
     object-position: 56% 73%;
-    /* position: relative;
-    bottom: 150px; */
     align-items: center;
     
 }
@@ -51,13 +49,13 @@ body {
   
 
 
-/* .character-box img {
+.character-box img {
     width: 100%;
     height: auto;
     display: block;
-} */
+}
 
-/* .generate-button {
+.generate-button {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #ff69b4;
@@ -65,9 +63,9 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-} */
+} 
 
-/* .overlay {
+ .overlay {
     position: absolute;
     bottom: 400px;
     left: 1200px;
@@ -79,5 +77,4 @@ body {
     text-align: center;
     border-radius: 5px;
 }
- */
 
