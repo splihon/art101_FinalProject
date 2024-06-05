@@ -29,9 +29,9 @@ body {
 
 #clawMachine {
     align-items: center;
-    width: 1450px;
-    height: 250px;
-    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    object-fit: none;
     object-position: 56% 73%;
     align-items: center;
     
