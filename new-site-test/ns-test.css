@@ -6,24 +6,30 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #ffbdbd;
+    float: center;
+    width: 100%
 }
 
 .gif-bar {
-    width: 150%;
+    width: 100%;
     height: 40px; /* Adjust the height as needed */
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absoloute;
+    position: absolute;
     top: 0;
+    text-align: center;
 }
 
-.gif-bar img {
-    height: 500px;
+#clawMachine {
     align-items: center;
-    margin-top: 500px;
+    width: 1450px;
+    height: 250px;
+    object-fit: cover;
+   object-position: 56% 73%;
+
 }
 
 .character-box {
