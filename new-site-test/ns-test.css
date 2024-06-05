@@ -36,9 +36,8 @@ body {
     object-fit: cover;
     object-position: 56% 73%;
     position: relative;
-    top: 10px;
-    position: fixed;
-    
+    bottom: 150px;
+    align-items: center;
     
 }
 
