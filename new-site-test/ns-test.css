@@ -9,49 +9,29 @@ body {
     background-color: #f0f0f0;
 }
 
-.gif-bar {
-    width: 150%;
-    height: 15px; /* Adjust the height as needed */
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-   
+.gif-bar, .character-box {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
 }
 
-.gif-bar img {
-    height: 30px;
-    
-}
-
-.character-box {
-    width: 80%;
-    height: 60%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.minor-section-bar {
+    padding: 20px;
+    border: solid 1px #888;
+    background-image: url("img-stickers/sanrioclaw.png");
+    background-color: #ffd0f5;
+    text-align: center;
     position: relative;
 }
 
 .character-box img {
-    
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.character-text {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #333;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .generate-button {
-    position: absolute;
-    bottom: 20px;
+    margin-top: 10px;
     padding: 10px 20px;
     background-color: #ff69b4;
     color: #fff;
@@ -60,16 +40,15 @@ body {
     cursor: pointer;
 }
 
-.image {
-    width: 100%;
-}
-
 .overlay {
     position: absolute;
-    bottom: 0;
-    left: 0; 
-    right: 0; 
-   background-color:#0000008c; 
-   overflow:hidden;
-   color:white;
-}   
+    bottom: 400px;
+    left: 1200px;
+    right: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+}
