@@ -53,13 +53,12 @@ body {
 }
 
  .overlay:after {
-   content: "";
-   display: table;
-   clear: both;
+    content: "";
+    display: table;
+    clear: both;
     bottom: 400px;
     left: 1200px;
     right: 500px;
-   
     color: white;
     padding: 5px;
     font-size: 18px;
@@ -76,4 +75,5 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-items: center;
 } 
