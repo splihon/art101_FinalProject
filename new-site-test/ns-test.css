@@ -48,7 +48,26 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    float: left;
+    width: 50%;
 }
+
+ .overlay:after {
+   content: "";
+   display: table;
+   clear: both;
+    bottom: 400px;
+    left: 1200px;
+    right: 500px;
+   
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    position: float;
+}
+
 .generate-button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -58,15 +77,3 @@ body {
     border-radius: 5px;
     cursor: pointer;
 } 
- .overlay {
-    position: absolute;
-    bottom: 400px;
-    left: 1200px;
-    right: 500px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 5px;
-    font-size: 18px;
-    text-align: center;
-    border-radius: 5px;
-}
