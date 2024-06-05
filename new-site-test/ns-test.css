@@ -42,6 +42,17 @@ body {
     
 }
 
+.minor-section {
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    border: 10px dashed #e4ebf1;
+    background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
+  }
+  
+
 
 /* .character-box img {
     width: 100%;
