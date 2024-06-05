@@ -7,11 +7,10 @@ body {
     justify-content: center;
     background-color: #f0f0f0;
 }
-/* .character-box {
+.character-box {
     width: 100%;
-    max-width: 600px;
     margin: 20px;
-} */
+} 
 .gif-bar {
     width: 100%;
     height: 40px; /* Adjust the height as needed */
@@ -35,11 +34,9 @@ body {
 
 }
 .minor-section {
-    padding: 15px;
     margin-bottom: 5px;
     border-radius: 30px;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     border: 10px dashed #e4ebf1;
     background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
   }
@@ -52,19 +49,15 @@ body {
     width: 50%;
 }
 
- .overlay:after {
+ .overlay::after {
     content: "";
     display: table;
     clear: both;
-    bottom: 400px;
-    left: 1200px;
-    right: 500px;
     color: white;
     padding: 5px;
     font-size: 18px;
-    text-align: center;
+    text-align: right;
     border-radius: 5px;
-    position: float;
 }
 
 .generate-button {
