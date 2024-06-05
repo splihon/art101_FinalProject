@@ -106,6 +106,7 @@ body {
 margin-bottom: 10px;
 border: solid 1px #888;
 background-color: #ffe0e0;
+border-radius: 10px; /* Add rounded corners */
 }
 
 #Printables {
@@ -143,4 +144,3 @@ background-color: #ffe0e0;
   height: auto; /* Maintain aspect ratio */
   margin: auto; /* Center the images horizontally */
 }
-
