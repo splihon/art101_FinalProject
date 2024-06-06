@@ -1,97 +1,117 @@
-/* General styling for the body */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #98C4DD; /* Light blue background */
-    /* background-image: url('../img/img-headers/miraland.png'); */
-    background-size: 100% 100%;
-    height: 100vh;
-    margin: 0;
-}
-
-/* background image for character generator */
-.container {
-    text-align: center;
-    background-image: url('../img/img-headers/miraland.png');
-    background-size: cover; /* Ensure the background image covers the container */
-    padding: 20px; /* Add padding to the container */
-    border-radius: 10px; /* Add border-radius for better aesthetics */
-    margin-top: 20px; /* Add margin to separate from the top */
-    width: 800px; /* Set the width of the container */
-    height: 1200px; /* Set the height of the container */
-}
-
-#output {
-    margin-top: 20px;
-}
-
-#randomImage {
-    max-width: 100%; /* Ensure the image doesn't overflow the container */
-    max-height: 100%; /* Ensure the image doesn't overflow the container */
-}
-
-#generateButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-
-
-/* Styling for the top bar */
-.top-bar {
-    background-color: #0d7ab9; /* Orange background */
-    color: #ffffff; /* White text */
-    text-align: center; /* Centered text */
-    padding: 10px 0; /* Padding on top and bottom */
-    position: relative; /* Positioned relative to its normal position */
-}
-
-/* Styling for the title text */
-.title {
-    font-size: 24px; /* Font size */
-}
-
-/* Styling for the menu button */
-.menu-button {
-    position: absolute; /* Positioned absolutely within the top bar */
-    left: 10px; /* Positioned 10px from the left */
-    top: 10px; /* Positioned 10px from the top */
-    background-color: black; /* Black background */
-    border: none; /* No border */
-    color: white; /* White text */
-    padding: 8px 12px; /* Padding inside the button */
-    cursor: pointer; /* Cursor changes to pointer on hover */
-    font-size: 14px; /* Font size */
-    border-radius: 8px; /* Rounded corners */
+@font-face {
+    font-family: 'MyFont' ;
+    src: url(../fonts/simply_rounded.woff);
 }
 
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'MyFont', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffdfdf;
+    
+}
+.character-box {
+    width: 100%;
+    margin: 20px;
+} 
+.gif-bar {
+    width: 100%;
+    height: 40px; /* Adjust the height as needed */
+    background-color: #573941;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
-
-.container {
     text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
-#output {
-    margin-top: 20px;
-}
+#clawMachine {
+    align-items: center;
+    width: 1450px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 56% 73%;
+    align-items: center;
 
-#randomImage {
-    max-width: 100%;
+}
+.minor-section {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 30px;
+
+    border: 10px dashed #e4ebf1;
+    background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
+  }
+  
+.character-box img {
+    width: 100%;
     height: auto;
+    display: block;
+    float: left;
+    /* width: 50%; */
+}
+
+ .overlay::after {
+    content: "";
+    display: table;
+    clear: both;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+#buttonContainer {
+    height: 200px;
+    position: relative;
 }
 
 #generateButton {
-    padding: 10px 20px;
-    font-size: 16px;
+    margin-top: 50px;
+    padding: 10px 20px; 
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
     cursor: pointer;
+    font-size: 100px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    font-family: 'MyFont';
+} 
+
+#generateButton:hover {
+    background-color: #ffb0d8;
+    box-shadow: #fff 0px 7px;
+}
+
+#randomImage {
+    width: 350px;
+   padding-left: 370px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+#randomText {
+    text-align: left;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    padding: 30px;
+    padding-right: 40px;
+    font-size: 25px;
+    transform: translate(70px, 20px);
 }
