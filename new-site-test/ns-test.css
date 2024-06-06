@@ -104,6 +104,7 @@ body {
 #randomText {
     text-align: left;
     padding-top: 30px;
+    font-size: 100px;
     transform: translate(70px, 20px)
   
 }

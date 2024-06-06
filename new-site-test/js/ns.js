@@ -18,6 +18,8 @@ function generateRandomContent() {
     const randomIndex = Math.floor(Math.random() * imageTextPairs.length);
     const randomPair = imageTextPairs[randomIndex];
 
+//API Stuff here, it is a advice generator
+// then, we linked it up so that the characters "give" the user advice when you press generate
     $.ajax({
         url: 'https://api.adviceslip.com/advice',
         type: 'GET',
