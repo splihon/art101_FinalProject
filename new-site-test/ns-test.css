@@ -98,13 +98,13 @@ body {
 .title {
     text-align: center;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 100px;
 }
 
 #randomText {
     text-align: left;
     padding-top: 30px;
-    font-size: 100px;
+    font-size: 85px;
     transform: translate(70px, 20px)
   
 }
