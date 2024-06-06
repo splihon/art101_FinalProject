@@ -52,7 +52,7 @@ body {
     height: auto;
     display: block;
     float: left;
-    width: 50%;
+    /* width: 50%; */
 }
 
  .overlay::after {
@@ -95,8 +95,15 @@ body {
    padding-left: 370px;
 }
 
-.title{
+.title {
     text-align: center;
     padding-bottom: 10px;
     font-size: 40px;
+}
+
+#randomText {
+    text-align: left;
+    padding-top: 30px;
+    transform: translate(70px, 20px)
+  
 }
