@@ -18,6 +18,21 @@ function generateRandomContent() {
     const randomIndex = Math.floor(Math.random() * imageTextPairs.length);
     const randomPair = imageTextPairs[randomIndex];
 
+    $.ajax({
+        url: 'https://api.adviceslip.com/advice',
+        type: 'GET',
+        success: function(response) {
+          const advice = JSON.parse(response).slip.advice;
+          console.log(advice);
+        }
+      });
+
+
+
     document.getElementById('randomImage').src = randomPair.src;
     document.getElementById('randomText').innerText = randomPair.text;
+
+
+
+
 };
