@@ -23,16 +23,12 @@ function generateRandomContent() {
         type: 'GET',
         success: function(response) {
           const advice = JSON.parse(response).slip.advice;
-          console.log(advice);
+          document.getElementById('randomText').innerText = advice;
         }
       });
 
-
-
     document.getElementById('randomImage').src = randomPair.src;
-    document.getElementById('randomText').innerText = randomPair.text;
-
-
+    
 
 
 };
