@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Homepage - Sanrio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="css/site.css">
-    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Sanrio Character Image and Text</title>
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/homepage.css">
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script src="js/lab.js" defer></script>
+    <!-- <script src="ex.js" defer></script> -->
 </head>
-
 <body>
-    <!-- Top bar with a background color and centered text -->
-    <div class="top-bar">
-        <!-- Menu button in the top left corner -->
-        <button class="menu-button">Menu</button>
-        <!-- Title text in the middle -->
-        <span class="title">HOMEPAGE</span>
+    <div id = "characters" class="container">
+        <div id="output">
+            <img id="randomImage" src="" alt="Random Image">
+            <p id="randomText"></p>
+        </div>
+        <button id="generateButton">Generate</button>
     </div>
-    <!-- Dropdown menu hidden by default -->
-    <div class="menu">
-        <ul>
-            <!-- Links to different web pages -->
-            <li><a href="B_Characters/Character1/index.html">Character1</a></li>
-            <li><a href="B_Characters/Purin/index.html">Purin</a></li>
-            <li><a href="B_Characters/Character3/index.html">Character3</a></li>
-            <li><a href="B_Characters/Chococat/index.html">Chococat</a></li>
-            <li><a href="B_Characters/Character5/index.html">Character5</a></li>
-            <li><a href="B_Characters/Mocha/index.html">Mocha</a></li>
-            <li><a href="Printables/index.html">Printables</a></li>
-        </ul>
-    </div>
-   
 
+    <h2> Printables </h2>
+    <div id="Printables" class ='minor-section'>
+            <!-- <img id="first" src="img/5FBR.gif">
+            <img id="second" src="img/Baku_2D.webp"> -->
+            <img id="seventh" src="img/img-character/transparent-kuromi.gif">
+            <img id="ninth" src="img/img-printables/sanrio calendar 2023 2.png">
+            <img id="tenth" src="img/img-printables/sanrio calendar 2024 3.png">
+            <img id="fourth" src="img/img-character/Mocha.webp">
+            <img id="sixth" src="img/img-character/pino.png">
+            <img id="third" src="img/img-character/chococat.webp">
+            <img id="eighth" src="img/img-character/transparentPurin.png">
+            <img id="fifth" src="img/img-character/my-melody.png">
+        </div>
+  
+    <script src="js/site.js" defer></script>
 </body>
 </html>

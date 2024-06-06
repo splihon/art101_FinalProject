@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('../img/miraland.png');
+    background-size: 100% 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#randomImage {
+    max-width: 100%;
+    height: auto;
+}
+
+#generateButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
