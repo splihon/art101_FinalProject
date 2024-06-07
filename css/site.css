@@ -47,7 +47,6 @@ body {
     margin-right: auto;
     margin-bottom: 5px;
     border-radius: 30px;
-
     border: 10px dashed #e4ebf1;
     background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
   }
@@ -85,7 +84,7 @@ body {
     border-radius: 15px;
     cursor: pointer;
     font-size: 100px;
-    margin-left: 450px;
+    margin-left: 490px;
     margin-bottom: 100px;
     font-family: 'MyFont';
 } 
@@ -114,4 +113,11 @@ body {
     padding-right: 40px;
     font-size: 25px;
     transform: translate(70px, 20px);
+    margin-right: 60px;
+}
+
+.instagram-media {
+
+    align-items: center;
+
 }
