@@ -87,6 +87,7 @@ body {
     cursor: pointer;
     font-size: 100px;
     margin-left: 450px;
+    /* margin-right: 450px; */
     margin-bottom: 100px;
     font-family: 'MyFont';
 } 
@@ -115,4 +116,12 @@ body {
     padding-right: 40px;
     font-size: 25px;
     transform: translate(70px, 20px);
+}
+
+.text {
+    text-align: left;
+    padding: 30px;
+    padding-right: 40px;
+    font-size: 40px;
+    transform: translate(70px, 20px);   
 }

@@ -14,6 +14,8 @@ const imageTextPairs = [
     //add more img and correct text later
 ];
 
+
+
 function generateRandomContent() {
     const randomIndex = Math.floor(Math.random() * imageTextPairs.length);
     const randomPair = imageTextPairs[randomIndex];
