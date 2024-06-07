@@ -42,13 +42,12 @@ body {
 
 }
 .minor-section {
-    width: 125%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
     border-radius: 30px;
-
     border: 10px dashed #e4ebf1;
     background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
   }
@@ -86,8 +85,7 @@ body {
     border-radius: 15px;
     cursor: pointer;
     font-size: 100px;
-    margin-left: 450px;
-    /* margin-right: 450px; */
+    margin-left: 490px;
     margin-bottom: 100px;
     font-family: 'MyFont';
 } 
@@ -99,7 +97,7 @@ body {
 
 #randomImage {
     width: 350px;
-   padding-left: 370px;
+   padding-left: 300px;
 }
 
 .title {
@@ -116,6 +114,31 @@ body {
     padding-right: 40px;
     font-size: 25px;
     transform: translate(70px, 20px);
+    margin-right: 60px;
+}
+
+.instagram-media {
+
+    align-items: center;
+
+}
+
+#Printables img:hover {
+  transform: scale(1.1); /* Increase size slightly on hover */
+}
+
+#Printables {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+  grid-gap: 10px; /* Add spacing between images */
+}
+
+#Printables img {
+  width: 500px; /* Adjust the width as needed to match the size of your cake image */
+  height: auto; /* Maintain aspect ratio */
+  margin: auto; /* Center the images horizontally */
+  padding: 20px;
+  margin-left: 75px;
 }
 
 .text {
