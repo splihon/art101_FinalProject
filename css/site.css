@@ -134,7 +134,7 @@ body {
 }
 
 #Printables img {
-  width: 500px; /* Adjust the width as needed to match the size of your cake image */
+  width: 400px; /* Adjust the width as needed to match the size of your cake image */
   height: auto; /* Maintain aspect ratio */
   margin: auto; /* Center the images horizontally */
   padding: 20px;
