@@ -40,6 +40,7 @@ function generateRandomContent() {
           const advice = JSON.parse(response).slip.advice;
           document.getElementById('randomText').innerText = advice;
 
+          // interprets HTML tags in the text strings
           const outputDiv = document.getElementById('randomDescription');
           outputDiv.innerHTML = `
               <p class="character-text">${randomPair.text}</p>

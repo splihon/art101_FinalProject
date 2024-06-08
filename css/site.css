@@ -52,13 +52,12 @@ body {
     background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
   }
   
-/* the actual images of the characters */
+
 .character-box img {
     width: 100%;
     height: auto;
     display: block;
     float: left;
-    padding-top: 50px;
 }
 
  .overlay::after {
@@ -95,10 +94,11 @@ body {
     background-color: #ffb0d8;
     box-shadow: #fff 0px 7px;
 }
-
+/* the actual images of the characters */
 #randomImage {
-    width: 350px;
-   padding-left: 300px;
+    width: 450px;
+    padding-left: 180px;
+    padding-top: 80px;
 
 }
 
@@ -110,12 +110,10 @@ body {
 
 #randomText {
     text-align: left;
-    /* padding-top: 30px;
-    padding-bottom: 30px; */
-    padding: 30px;
+    padding: 20px;
     padding-right: 40px;
     font-size: 25px;
-    transform: translate(70px, 20px);
+    transform: translate(70px, 0px); 
     margin-right: 60px;
 }
 
@@ -146,25 +144,21 @@ body {
 .text {
     text-align: left;
     padding: 30px;
-    padding-right: 40px;
+    padding-right: 35px;
     font-size: 40px;
-    transform: translate(70px, 20px);   
+    transform: translate(65px, 20px);   
 }
 
 
 #randomDescription {
     text-align: left;
-    padding: 30px; 
-    /* padding-right: 40px;  */
+    padding: inherit;
     font-size: 25px;
-    transform: translate(690px, -200px);
-    margin-right: 60px;
-    width: 500px;
-
-}
-
-.nameTitle {
-
-    font-size: larger;
+    /* transform: translate(690px, -500px); */
+    margin-left: 680px;
+    position: absolute;
+    bottom: -200px;
+    width: 520px;
+    margin-top: 30px;
 
 }
