@@ -30,9 +30,7 @@ function generateRandomContent() {
           document.getElementById('randomText').innerText = advice;
         }
       });
-
-    document.getElementById('randomImage').src = randomPair.src;
     
-
-
+    document.getElementById('randomImage').src = randomPair.src;
+    document.getElementById('randomDescription').innerText = randomPair.text;
 };
