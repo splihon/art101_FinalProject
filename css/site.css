@@ -52,12 +52,13 @@ body {
     background: linear-gradient(to bottom, #f8d0d7, #bae7a6);
   }
   
+/* the actual images of the characters */
 .character-box img {
     width: 100%;
     height: auto;
     display: block;
     float: left;
-    /* width: 50%; */
+    padding-top: 50px;
 }
 
  .overlay::after {
@@ -98,6 +99,7 @@ body {
 #randomImage {
     width: 350px;
    padding-left: 300px;
+
 }
 
 .title {
@@ -147,4 +149,22 @@ body {
     padding-right: 40px;
     font-size: 40px;
     transform: translate(70px, 20px);   
+}
+
+
+#randomDescription {
+    text-align: left;
+    padding: 30px; 
+    /* padding-right: 40px;  */
+    font-size: 25px;
+    transform: translate(690px, -200px);
+    margin-right: 60px;
+    width: 500px;
+
+}
+
+.nameTitle {
+
+    font-size: larger;
+
 }
