@@ -98,7 +98,7 @@ body {
 #randomImage {
     width: 450px;
     padding-left: 180px;
-    padding-top: 80px;
+    padding-top: 50px;
 
 }
 
@@ -114,7 +114,8 @@ body {
     padding-right: 40px;
     font-size: 25px;
     transform: translate(70px, 0px); 
-    margin-right: 60px;
+    margin-left: 30px;
+    border-right: 30px;
 }
 
 .instagram-media {
@@ -142,6 +143,7 @@ body {
 }
 
 .text {
+    margin-top: 400px;
     text-align: left;
     padding: 30px;
     padding-right: 35px;
@@ -161,4 +163,11 @@ body {
     width: 520px;
     margin-top: 30px;
 
+}
+
+h3{
+    font-size:25px;
+    color:#ed8383;
+    padding: 30px;
+    padding-right: 35px;
 }
