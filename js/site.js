@@ -2,6 +2,20 @@
 document.getElementById('generateButton').addEventListener('click', generateRandomContent);
 
 
+// window.addEventListener("load", (event) => {document.getElementById("backgroundMusic").play();});
+function PlayMusic() {
+
+  var play=document.getElementById("backgroundMusic");
+  play.play();
+}
+
+$(document).ready(function(){
+  setTimeout(PlayMusic,3000);
+})
+// $(document).ready(function() {
+//   $("#backgroundMusic").get(0).play();
+// });
+
 const imageTextPairs = [
     {src: 'img/img-character/chococat.gif', 
       text: '<h1> CHOCOCAT ! </h1>' + '<br>' +
@@ -38,7 +52,7 @@ function generateRandomContent() {
         type: 'GET',
         success: function(response) {
           const advice = JSON.parse(response).slip.advice;
-          document.getElementById('randomText').innerText = advice;
+          document.getElementById('randomText').innerHTML = `<p id="adviceTitle">Words of Wisdom: </p><h3>${advice}</h3>`;
 
           // interprets HTML tags in the text strings
           const outputDiv = document.getElementById('randomDescription');
@@ -51,3 +65,5 @@ function generateRandomContent() {
     document.getElementById('randomImage').src = randomPair.src;
     document.getElementById('randomDescription').innerText = randomPair.text;
         };
+
+        
