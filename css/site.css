@@ -79,7 +79,7 @@ body {
 }
 
 #generateButton {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 10px 20px; 
     background-color: #ff69b4;
     color: #fff;
@@ -87,8 +87,10 @@ body {
     border-radius: 15px;
     cursor: pointer;
     font-size: 100px;
-    margin-left: 490px;
-    margin-bottom: 100px;
+    display: block;
+    margin:auto;
+    /* margin-left: 490px; */
+    /* margin-bottom: 100px; */
     font-family: 'MyFont';
 } 
 
@@ -116,6 +118,7 @@ body {
     padding: 15px;
     padding-right: 40px;
     font-size: 25px;
+    width: 480px;
     /* transform: translate(70px, 0px);  */
     /* margin-right: 60px; */
 }
@@ -165,9 +168,9 @@ body {
 }
 
 
-/* #adviceTitle{
-
-} */
+#adviceTitle{
+    color: #ac3fc4;
+}
 
 
 .groupPic{

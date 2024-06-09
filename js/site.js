@@ -52,7 +52,7 @@ function generateRandomContent() {
         type: 'GET',
         success: function(response) {
           const advice = JSON.parse(response).slip.advice;
-          document.getElementById('randomText').innerHTML = `<p id="adviceTitle">Words of Wisdom: </p><h3>${advice}</h3>`;
+          document.getElementById('randomText').innerHTML = `<h2 id="adviceTitle" >🔮 Words of Wisdom: </h2><h3>${advice}</h3>`;
 
           // interprets HTML tags in the text strings
           const outputDiv = document.getElementById('randomDescription');
