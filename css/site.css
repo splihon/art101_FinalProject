@@ -155,10 +155,10 @@ body {
     padding: inherit;
     font-size: 25px;
     /*transform: translate(690px, -500px);*/
-    margin-left: 680px;
+    margin-left: 650px;
     position: absolute;
-    bottom: -200px;
-    width: 520px;
+    bottom: -500px;
+    width: 480px;
 
 }
 
