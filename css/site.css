@@ -98,7 +98,7 @@ body {
 #randomImage {
     width: 450px;
     padding-left: 180px;
-    padding-top: 50px;
+    padding-top: 80px;
 
 }
 
@@ -114,8 +114,7 @@ body {
     padding-right: 40px;
     font-size: 25px;
     transform: translate(70px, 0px); 
-    margin-left: 30px;
-    border-right: 30px;
+    margin-right: 60px;
 }
 
 .instagram-media {
@@ -143,7 +142,6 @@ body {
 }
 
 .text {
-    margin-top: 400px;
     text-align: left;
     padding: 30px;
     padding-right: 35px;
@@ -156,18 +154,17 @@ body {
     text-align: left;
     padding: inherit;
     font-size: 25px;
-    /* transform: translate(690px, -500px); */
+    /*transform: translate(690px, -500px);*/
     margin-left: 680px;
     position: absolute;
-    bottom: -200px;
+    bottom: -400px;
     width: 520px;
-    margin-top: 30px;
 
 }
 
 h3{
-    font-size:25px;
-    color:#ed8383;
-    padding: 30px;
-    padding-right: 35px;
+    font-size:25px !important;
+    color:#ed8383 !important;
+    padding: 30px !important;
+    padding-right: 35px !important;
 }
